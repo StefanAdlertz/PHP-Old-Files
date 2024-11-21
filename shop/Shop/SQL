@@ -1,0 +1,26 @@
+create table shop_bestallning
+(
+orderID 		mediumint auto_increment,
+skapad 			datetime,
+skickad 		datetime,
+fnamn 			varchar(100),
+enamn 			varchar(100),
+adress 		    varchar(100),
+postnr 			varchar(100),
+postadress  	varchar(100),
+mobiltelefon 	varchar(100),
+epost 			varchar(100),
+primary 		key(orderID)
+);
+
+create table shop_bestallning_produkter
+(
+orderradID 	mediumint auto_increment,
+orderID 	mediumint,
+prodID 		mediumint,
+rubrik 		varchar(100),
+antal 		mediumint,
+pris        float,
+primary 	key(orderradID)
+);
+

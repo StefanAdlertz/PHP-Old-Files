@@ -1,0 +1,290 @@
+
+body        {font-family    : Verdana; font-size    : 8pt; color    : #000000; background           : url(images/site-background.gif);}
+td          {font-family    : Verdana; font-size    : 8pt; color    : #000000; background-color     : #ffffff;}
+td colspan  {font-family    : Verdana; font-size    : 8pt; color    : #000000; background-color     : #ffffff;}
+label       {font-family    : Verdana; font-size    : 8pt; color    : #000000; background-color     : transparent;}
+table       {font-family    : Verdana; font-size    : 8pt; color    : #000000; background-color     : #ffffff;}
+option      {font-family    : Verdana; font-size    : 8pt; color    : #000000; background-color     : transparent;}
+input       {font-family    : Verdana; font-size    : 8pt; color    : #000000; background-color     : transparent;}
+textarea    {font-family    : Verdana; font-size    : 8pt; color    : #000000; background-color     : transparent;}
+p           {font-family    : Verdana; font-size    : 8pt;}
+
+a:link      {color              : #ffffff;}
+a:visited   {color              : #ffffff;}
+a:hover     {background-color   : transparent;}
+a:link      {text-decoration    : none;}
+a:visited   {text-decoration    : none;}
+a:active    {text-decoration    : none;}
+
+.i_border   {
+            width               : 100%;
+            height              : 36px;
+            background-color    : #e7e7e7;
+            }
+
+.t_border   {
+            width               : 100%;
+            height              : 18px;
+            color               : #ffffff;
+            border-top-style    : solid;
+            border-top-color    : #000000;
+            border-top-width    : 1px;
+            background-image    : url(images/border-top-middle.jpg);
+            }
+
+.m_border   {
+            width               : 100%;
+            height              : 7px;
+            color               : #ffffff;
+            background          : url(images/border-middle.gif);
+            }
+
+.b_border   {
+            width               : 100%;
+            height              : 7px;
+            color               : #ffffff;
+            background          : url(images/border-middle.gif);
+            }
+
+.site-border-top-left   {
+            height              : 17px;
+            background          : url(images/site-border-top-left.png);
+            }
+
+.site-border-top   {
+            height              : 17px;
+            background          : url(images/site-border-top.png);
+            }
+
+.site-border-top-right   {
+            height              : 17px;
+            background          : url(images/site-border-top-right.png);
+            }
+
+.site-border-bottom-left   {
+            height              : 17px;
+            background          : url(images/site-border-bottom-left.png);
+            }
+
+.site-border-bottom   {
+            height              : 17px;
+            background          : url(images/site-border-bottom.png);
+            }
+
+.site-border-bottom-right   {
+            height              : 17px;
+            background          : url(images/site-border-bottom-right.png);
+            }
+
+.site-border-left   {
+            width              : 4px;
+            background          : url(images/site-border-left.png);
+            }
+
+.site-border-right   {
+            width              : 4px;
+            background          : url(images/site-border-right.png);
+            }
+
+.site-shade-left   {
+            width               : 12px;
+            background          : url(images/site-shade-left.gif);
+            }
+
+.site-shade-right   {
+            width               : 12px;
+            background          : url(images/site-shade-right.gif);
+            }
+
+.site-shade-top   {
+            height              : 12px;
+            background          : url(images/site-shade-top.gif);
+            }
+
+.site-shade-bottom   {
+            height              : 12px;
+            background          : url(images/site-shade-bottom.gif);
+            }
+
+.site-shade-corner-bottom-left  {
+            width               : 12px;
+			height              : 12px;
+            background          : url(images/site-shade-corner-bottom-left.gif);
+            }
+
+.site-shade-corner-bottom-right  {
+            width               : 12px;
+			height              : 12px;
+            background          : url(images/site-shade-corner-bottom-right.gif);
+            }
+
+.site-shade-corner-top-left {
+            width               : 12px;
+			height              : 12px;
+            background          : url(images/site-shade-corner-top-left.gif);
+            }
+
+.site-shade-corner-top-right  {
+            width               : 12px;
+			height              : 12px;
+            background          : url(images/site-shade-corner-top-right.gif);
+            }
+
+.td         {
+            height              : 15px;
+            background-image    : url(images/td_dotted.png);
+            }
+
+.toptd      {
+            height              : 8px;
+            background-color    : #e7e7e7;
+            border-top-style    : solid;    border-top-color    : #000000;  border-top-width    : 1px;
+            border-bottom-style : solid;    border-bottom-color : #000000;  border-bottom-width : 1px;
+            }
+
+.cv_toptd   {
+            height              : 18px;
+            background-color    : #e7e7e7;
+            }
+
+.bottomtd   {
+            background-color    : #e7e7e7;
+            border-top-style    : solid;    border-top-color    : #000000;  border-top-width    : 1px;
+            border-bottom-style : solid;    border-bottom-color : #000000;  border-bottom-width : 1px;
+            }
+
+.maintable  {
+            width               : 930px;
+            height              : 520px;
+            position            : relative;
+            border-collapse     : collapse;
+            }
+
+.middletable {
+            width               : 900px;
+            height              : 490px;
+            position            : relative;
+            border-collapse     : collapse;
+            }
+
+.shop_left  {
+            border-right-style : dotted; border-right-color : #000000; border-right-width : 1px;
+            }
+
+.shop_images {
+            border-right-style : dotted; border-right-color : #000000; border-right-width : 1px;
+            border-bottom-style : dotted; border-bottom-color : #000000; border-bottom-width : 1px;
+            }
+
+.shop_prodtd {
+            border-bottom-style : dotted; border-bottom-color : #000000; border-bottom-width : 1px;
+            }
+
+.shop_rubrik     {
+            border-bottom-style : dotted; border-bottom-color : #000000; border-bottom-width : 1px;
+            }
+
+.shop_pris     {
+            border-top-style : dotted; border-top-color : #000000; border-top-width : 1px;
+            }
+
+.box        {
+            width               : 882px;
+            height              : 450px;
+            position            : relative;
+            padding             : 8px;
+            background-color    : #ffffff;
+            }
+
+.button     {
+            width               : 100px;
+            height              : 25px;
+            color               : #ffffff;
+            background-image    : url(images/button.png);
+            background-color    : transparent;
+            border              : none;
+            }
+
+.button_s   {
+            width               : 100px;
+            height              : 8px;
+            color               : #ffffff;
+            background-image    : url(images/button-s.png);
+            background-color    : transparent;
+            border              : none;
+            }
+
+.pdf_button {
+            width               : 15px;
+            height              : 15px;
+            border              : none;
+            }
+
+.links_button {
+            width               : 15px;
+            height              : 15px;
+            border              : none;
+            }
+
+.add_links_button {
+            width               : 15px;
+            height              : 15px;
+            border              : none;
+            }
+
+.delete_links_button {
+            width               : 15px;
+            height              : 15px;
+            border              : none;
+            }
+
+.delete_file_button {
+            width               : 15px;
+            height              : 15px;
+            border              : none;
+            }
+
+.delete_button {
+            width               : 15px;
+            height              : 15px;
+            border              : none;
+            }
+
+.delete_button_ {
+            width               : 25px;
+            height              : 25px;
+            border              : none;
+            }
+
+.edit_button {
+            width               : 15px;
+            height              : 15px;
+            border              : none;
+            }
+
+.add_button {
+            width               : 15px;
+            height              : 15px;
+            border              : none;
+            }
+
+.subtract_button {
+            width               : 15px;
+            height              : 15px;
+            border              : none;
+            }
+
+.add_file_button {
+            width               : 15px;
+            height              : 15px;
+            border              : none;
+            }
+
+.menu       {
+            height              : 25px;
+            background          : url(images/menu-bg.png);
+            }
+
+.skugga     {
+            background-image   : url(images/skugga.gif);
+            }
