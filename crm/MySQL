@@ -1,0 +1,93 @@
+---------------------------------------
+
+TABLE FORETAG
+create table crm_foretag
+(
+foretags_ID      	mediumint auto_increment,
+arbetsgrupps_ID  	mediumint,
+foretagsnamn    	varchar(100),
+adress      		varchar(100),
+leveransadress  	varchar(100),
+postnr 	        	varchar(100),
+postadress      	varchar(100),
+orgnummer       	varchar(100),
+telefon 			varchar(100),
+epost	        	varchar(100),
+ovrigt	        	varchar(400),
+primary 	    	key(foretags_ID)
+);
+
+---------------------------------------
+
+TABLE KONTAKTPERSONER
+create table crm_kontaktpersoner
+(
+kontaktperson_ID  	mediumint auto_increment,
+foretags_ID			mediumint,
+fnamn           	varchar(40),
+enamn      	        varchar(40),
+titel      	        varchar(40),
+telefon         	varchar(40),
+mobil 	        	varchar(40),
+epost	        	varchar(40),
+ovrigt	        	varchar(400),
+primary 	    	key(kontaktperson_ID)
+);
+
+---------------------------------------
+
+TABLE KONTAKT
+create table crm_kontakt
+(
+kontakt_ID      	mediumint auto_increment,
+saljar_ID			mediumint,
+foretags_ID			mediumint,
+kontaktperson_ID    mediumint,
+kontaktkategori_ID  mediumint,
+arbetsgrupps_ID     mediumint,
+kontaktdatum    	varchar(100),
+aterkontaktdatum    varchar(100),
+kontaktad           mediumint,
+ovrigt	        	varchar(400),
+primary 	    	key(kontakt_ID)
+);
+
+---------------------------------------
+
+TABLE KONTAKT KATEGORI
+create table crm_kontaktkategori
+(
+kontaktkategori_ID  mediumint auto_increment,
+kategori   			varchar(100),
+primary    			key(kontaktkategori_ID)
+);
+
+---------------------------------------
+
+TABLE SALJARE
+create table crm_saljare
+(
+saljar_ID  			mediumint auto_increment,
+arbetsgrupps_ID     mediumint,
+fnamn           	varchar(100),
+enamn      	        varchar(100),
+password      	    varchar(100),
+personnummer		varchar(100),
+telefon         	varchar(100),
+mobil 	        	varchar(100),
+epost	        	varchar(100),
+ovrigt	        	varchar(400),
+primary    			key(saljar_ID)
+);
+
+---------------------------------------
+
+TABLE ARBETSGRUPP
+create table crm_arbetsgrupp
+(
+arbetsgrupps_ID  	mediumint auto_increment,
+arbetsgrupp         varchar(100),
+primary    			key(arbetsgrupps_ID)
+);
+
+---------------------------------------
